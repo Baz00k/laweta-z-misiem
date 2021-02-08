@@ -515,6 +515,7 @@ nav {
     box-shadow: 0 8px 17px 0 rgb(0, 0, 0, .1), 0 6px 20px 0 rgb(0, 0, 0, .08);
     margin: 1rem;
     .image-container {
+        background-color: var(--darker-background);
         overflow: hidden;
         width: 220px;
         height: 200px;

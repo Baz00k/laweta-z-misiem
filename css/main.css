@@ -265,10 +265,13 @@ h3 {
   }
 }
 /********************         A C T U A L    C S S            ******************/
-.theme-light {
+:root {
   --color-primary: #fccc49;
   --color-secondary: #003049;
   --color-accent: #F77F00;
+}
+
+.theme-light {
   --font-color: #000000;
   --background-color: #fdfdfd;
   --darker-background: #e0e0e0;
@@ -9112,6 +9115,7 @@ nav .links {
   margin: 1rem;
 }
 .gallery-image .image-container {
+  background-color: var(--darker-background);
   overflow: hidden;
   width: 220px;
   height: 200px;

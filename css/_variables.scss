@@ -1,7 +1,10 @@
-.theme-light {
+:root {
     --color-primary: #fccc49;
     --color-secondary: #003049;
     --color-accent: #F77F00;
+}
+
+.theme-light {
     --font-color: #000000;
     --background-color: #fdfdfd;
     --darker-background: #e0e0e0;
