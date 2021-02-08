@@ -8936,6 +8936,12 @@ body {
   padding: 1rem;
   padding-top: 1.3rem;
 }
+@media only screen and (max-width : 992px) {
+  .banner-contact .align-right {
+    padding: 0.1rem;
+    margin-right: 0.5rem;
+  }
+}
 .banner-contact .contact-phone {
   padding: 0.5rem;
 }
@@ -8962,7 +8968,7 @@ body {
 }
 @media only screen and (max-width : 600px) {
   .banner-contact .banner-text {
-    font-size: 0.8rem;
+    font-size: 0.75rem;
   }
 }
 

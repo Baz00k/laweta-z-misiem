@@ -345,6 +345,10 @@ body {
         display: flex;
         padding: 1rem;
         padding-top: 1.3rem;
+        @media #{$medium-and-down} {
+            padding: 0.1rem;
+            margin-right: 0.5rem;
+        }
     }
     .contact-phone {
         padding: 0.5rem;
@@ -364,7 +368,7 @@ body {
             font-size: 1rem;
         }
         @media #{$small-and-down} {
-            font-size: 0.8rem;
+            font-size: 0.75rem;
         }
     }
 }
