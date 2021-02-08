@@ -1,43 +1,239 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html lang="pl" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html lang="pl" class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html lang="pl" class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html lang="pl" class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Laweta z Misiem</title>
-        <meta name="description" content="Ratownictwo drogowe i lawety. Zadzwoń">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--[if lt IE 7]>
+<html lang="pl" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html lang="pl" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html lang="pl" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="pl" class="no-js">
+<!--<![endif]-->
 
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Laweta z Misiem</title>
+    <meta name="description" content="Ratownictwo drogowe i lawety. Zadzwoń">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute('media');" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="css/main.min.css">
+    <!-- <script src="js/vendor/modernizr-2.6.2.min.js"></script> -->
+</head>
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-    </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+<body class="theme-light">
+    <!--[if lt IE 7]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+    your browser</a> to improve your experience.</p>
+<![endif]-->
 
-        <div>
-            <div style="margin: 0 auto; width: 100%; text-align: center"><h2>Templatka strony internetowej</h2></div>
+
+
+
+    <div class="content">
+        <div class="banner">
+            <div>
+                <img src="img/baner.jpg" alt="banner" />
+            </div>
+            <div class="banner-contact right valign-wrapper">
+                <div class="align-right">
+                    <div class="contact-phone valign-wrapper hide-on-med-and-down">
+                        <i class="material-icons medium">phone</i>
+                    </div>
+                    <div class="banner-divider">
+                        <div class="banner-text">Całodobowy numer alarmowy</div>
+                        <div class="phone-number">604 997 557</div>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+        <div id="navbar-fixed">
+            <nav>
+                <div class="nav-wrapper valign-wrapper">
+                    <a href="#" class="brand-logo">Laweta Z Misiem</a>
+                    <a href="#" data-target="menu-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <div class="hide-on-med-and-down links">
+                        <ul class="right">
+                            <li><a href="#description">Opis 1</a></li>
+                            <li><a href="#description2">Opis 2</a></li>
+                            <li><a href="link.html">Link 1</a></li>
+                            <li><a href="link.html">Link 2</a></li>
 
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-841MNP780X"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <ul class="sidenav valign-wrapper" id="menu-mobile">
+            <div class="center-align">
+                <li><a href="#description">Opis 1</a></li>
+                <li><a href="#description2">Opis 2</a></li>
+                <li><a href="link.html">Link 1</a></li>
+                <li><a href="link.html">Link 2</a></li>
+                <div class="halign-wrapper">
+                    <div class="toggle mobile-toggle">
+                        <span>☀️</span>
+                        <input type="checkbox" id="toggle-switch" class="toggle-switch" />
+                        <label for="toggle-switch"><span class="screen-reader-text">Toggle Color Scheme</span></label>
+                        <span>🌙</span>
+                    </div>
+                </div>
+            </div>
+        </ul>
 
-            gtag('config', 'G-841MNP780X');
-        </script>
-    </body>
+        <section id="description" class="text">
+            <h2 class="center">Tytuł sekcji</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, modi repudiandae. Nesciunt omnis officiis quasi recusandae facere tenetur rerum aliquam, quo officia cupiditate? Rem praesentium sequi, temporibus repellendus dicta dignissimos.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, modi repudiandae. Nesciunt omnis officiis quasi recusandae facere tenetur rerum aliquam, quo officia cupiditate? Rem praesentium sequi, temporibus repellendus dicta dignissimos.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, modi repudiandae. Nesciunt omnis officiis quasi recusandae facere tenetur rerum aliquam, quo officia cupiditate? Rem praesentium sequi, temporibus repellendus dicta dignissimos.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, modi repudiandae. Nesciunt omnis officiis quasi recusandae facere tenetur rerum aliquam, quo officia cupiditate? Rem praesentium sequi, temporibus repellendus dicta dignissimos.
+            </p>
+        </section>
+
+        <section class="gallery">
+            <div class="container">
+                <div class="row">
+                    <div class="col l3 s10 push-s1 center-align">
+                        <h3>Tytuł opisu do galerii</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, modi repudiandae. Nesciunt omnis officiis quasi recusandae facere tenetur rerum aliquam, quo officia cupiditate? Rem praesentium sequi, temporibus repellendus dicta dignissimos.
+                        </p>
+                    </div>
+                    <div class="col l9 s12 gallery-container">
+                        <div class="gallery-image hoverable">
+                            <div class="image-container">
+                                <img src="img/logo.png">
+                            </div>
+                            <div class="image-description center">Opis zdjęcia</div>
+                        </div>
+                        <div class="gallery-image hoverable">
+                            <div class="image-container">
+                                <img src="img/logo.png">
+                            </div>
+                            <div class="image-description center">Opis zdjęcia</div>
+                        </div>
+                        <div class="gallery-image hoverable">
+                            <div class="image-container">
+                                <img src="img/logo.png">
+                            </div>
+                            <div class="image-description center">Opis zdjęcia</div>
+                        </div>
+                        <div class="gallery-image hoverable">
+                            <div class="image-container">
+                                <img src="img/logo.png">
+                            </div>
+                            <div class="image-description center">Opis zdjęcia</div>
+                        </div>
+                        <div class="gallery-image hoverable">
+                            <div class="image-container">
+                                <img src="img/logo.png">
+                            </div>
+                            <div class="image-description center">Opis zdjęcia</div>
+                        </div>
+                        <div class="gallery-image hoverable">
+                            <div class="image-container">
+                                <img src="img/logo.png">
+                            </div>
+                            <div class="image-description center">Opis zdjęcia</div>
+                        </div>
+                        <div class="gallery-image hoverable">
+                            <div class="image-container">
+                                <img src="img/logo.png">
+                            </div>
+                            <div class="image-description center">Opis zdjęcia</div>
+                        </div>
+                        <div class="gallery-image hoverable">
+                            <div class="image-container">
+                                <img src="img/logo.png">
+                            </div>
+                            <div class="image-description center">Opis zdjęcia</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="description2" class="text">
+            <h2 class="center">Tytuł sekcji</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, modi repudiandae. Nesciunt omnis officiis quasi recusandae facere tenetur rerum aliquam, quo officia cupiditate? Rem praesentium sequi, temporibus repellendus dicta dignissimos.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, modi repudiandae. Nesciunt omnis officiis quasi recusandae facere tenetur rerum aliquam, quo officia cupiditate? Rem praesentium sequi, temporibus repellendus dicta dignissimos.
+            </p>
+        </section>
+
+        <footer class="page-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col l6 s6">
+                        <h5 class="white-text">Stopka</h5>
+                        <p class="grey-text text-lighten-4">Informacje dodatkowe</p>
+                    </div>
+                    <div class="col l4 offset-l2 s4 offset-s2">
+                        <h5 class="white-text">Linki</h5>
+                        <ul>
+                            <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                        </ul>
+                    </div>
+                    <div class="col l2 hide-on-med-and-down">
+                        <div class="left">
+                            <div class="toggle">
+                                <span>☀️</span>
+                                <input type="checkbox" id="toggle-switch" class="toggle-switch" />
+                                <label for="toggle-switch"><span class="screen-reader-text">Toggle Color Scheme</span></label>
+                                <span>🌙</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="footer-copyright center">
+                <div class="container">
+                    Ratownictwo Drogowe Michał Zdunek © 2021
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+
+
+
+
+    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js "></script>
+    <script>
+        window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js "><\/script>')
+    </script> -->
+    <script src="js/plugins.js "></script>
+    <script src="js/vendor/materialize.min.js "></script>
+    <script src="js/main.js " defer></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-841MNP780X "></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'G-841MNP780X');
+    </script>
+</body>
+
 </html>
