@@ -9181,8 +9181,13 @@ nav .links {
 }
 @media only screen and (max-width : 600px) {
   .gallery-image .image-container {
-    width: 70vw;
+    width: 75vw;
     height: 210px;
+  }
+}
+@media only screen and (max-width: 410px) {
+  .gallery-image .image-container {
+    width: 80vw;
   }
 }
 .gallery-image .image-container img {
@@ -9196,6 +9201,24 @@ nav .links {
   padding: 10px;
 }
 
+.link-list {
+  padding-left: 1rem !important;
+}
+.link-list li {
+  margin-bottom: 0.5rem;
+}
+
 .footer-copyright {
   background-color: #00293f !important;
+}
+
+.link {
+  position: relative;
+  top: 5px;
+}
+
+.link-container {
+  padding: 5px;
+  margin: 1rem;
+  text-align: left;
 }

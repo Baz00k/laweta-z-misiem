@@ -561,8 +561,11 @@ nav {
         width: 220px;
         height: 200px;
         @media #{$small-and-down} {
-            width: 70vw;
+            width: 75vw;
             height: 210px;
+        }
+        @media only screen and (max-width: 410px) {
+            width: 80vw;
         }
         img {
             width: 100%;
@@ -577,6 +580,24 @@ nav {
     }
 }
 
+.link-list {
+    padding-left: 1rem !important;
+    li {
+        margin-bottom: 0.5rem;
+    }
+}
+
 .footer-copyright {
     background-color: darken($color: $primary-color, $amount: 2) !important;
+}
+
+.link {
+    position: relative;
+    top: 5px;
+}
+
+.link-container {
+    padding: 5px;
+    margin: 1rem;
+    text-align: left;
 }

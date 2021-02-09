@@ -57,35 +57,31 @@
             <nav>
                 <div class="nav-wrapper valign-wrapper">
                     <a href="#" class="brand-logo">Laweta Z Misiem</a>
-                    <a href="#" data-target="menu-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <a href="#" data-target="sidenav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                     <div class="hide-on-med-and-down links">
-                        <ul class="right">
-                            <li><a href="#description">Opis 1</a></li>
-                            <li><a href="#description2">Opis 2</a></li>
-                            <li><a href="link.html">Link 1</a></li>
-                            <li><a href="link.html">Link 2</a></li>
-
-                        </ul>
+                        <div id="nav-links">
+                            <ul class="right">
+                                <li><a href="#description">Opis 1</a></li>
+                                <li><a href="#description2">Opis 2</a></li>
+                                <li><a href="link.html">Link 1</a></li>
+                                <li><a href="link.html">Link 2</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </nav>
         </div>
-        <ul class="sidenav valign-wrapper" id="menu-mobile">
-            <div class="center-align">
-                <li><a href="#description">Opis 1</a></li>
-                <li><a href="#description2">Opis 2</a></li>
-                <li><a href="link.html">Link 1</a></li>
-                <li><a href="link.html">Link 2</a></li>
-                <div class="halign-wrapper">
-                    <div class="toggle mobile-toggle">
-                        <span>☀️</span>
-                        <input type="checkbox" id="toggle-switch" class="toggle-switch" />
-                        <label for="toggle-switch"><span class="screen-reader-text">Toggle Color Scheme</span></label>
-                        <span>🌙</span>
-                    </div>
+
+        <div class="sidenav center-align valign-wrapper" id="sidenav">
+            <div class="halign-wrapper">
+                <div class="toggle mobile-toggle">
+                    <span>☀️</span>
+                    <input type="checkbox" id="toggle-switch" class="toggle-switch" />
+                    <label for="toggle-switch"><span class="screen-reader-text">Toggle Color Scheme</span></label>
+                    <span>🌙</span>
                 </div>
             </div>
-        </ul>
+        </div>
 
         <section id="description" class="text">
             <h2 class="center">Tytuł sekcji</h2>
@@ -180,16 +176,22 @@
             <div class="container">
                 <div class="row">
                     <div class="col l6 s6">
-                        <h5 class="white-text">Stopka</h5>
+                        <h3 class="white-text">Stopka</h3>
                         <p class="grey-text text-lighten-4">Informacje dodatkowe</p>
                     </div>
                     <div class="col l4 offset-l2 s4 offset-s2">
-                        <h5 class="white-text">Linki</h5>
-                        <ul>
-                            <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                            <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                            <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                            <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                        <h3 class="white-text">Linki</h3>
+                        <ul class="link-list">
+                            <li>
+                                <a class="grey-text text-lighten-3 link-container" href="https://www.facebook.com/lawetazmisiem" target="_blank">
+                                    <i class="material-icons link">facebook</i> Laweta Z Misiem
+                                </a>
+                            </li>
+                            <li>
+                                <a class="grey-text text-lighten-3 link-container" href="https://g.page/LawetazMisiem?share" target="_blank">
+                                    <i class="material-icons link">map</i> Mapa
+                                </a>
+                            </li>
                         </ul>
                     </div>
                     <div class="col l2 hide-on-med-and-down">

@@ -40,5 +40,8 @@
         s.addEventListener("change", () => toggleTheme());
     }
 
-    M.Sidenav.init($a('.sidenav'));
+    const linkMenu = $('#nav-links').cloneNode(true);
+    $('#sidenav').children[0].appendChild(linkMenu);
+
+    M.Sidenav.init($('#sidenav'));
 })();
