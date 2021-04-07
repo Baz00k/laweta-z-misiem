@@ -8946,6 +8946,7 @@ body {
 
 .contact-phone-mobile {
   display: none;
+  color: #000;
 }
 @media only screen and (max-width: 360px) {
   .contact-phone-mobile {

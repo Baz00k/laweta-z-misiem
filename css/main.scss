@@ -351,6 +351,7 @@ body {
 
 .contact-phone-mobile {
     display: none;
+    color: #000;
     @media only screen and (max-width: 360px) {
         display: block;
         width: 100%;
